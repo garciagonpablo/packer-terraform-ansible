@@ -136,7 +136,7 @@ packer build -var-file=vars.json windows-server-2016.json
 
 Con esto ya se tiene una configuración básica que permite automatizar la build de Windows Server 2016. Pasos extra podrían ser automatizar la instalación de windows updates, pre-instalar software usando `Chocolatey`, permitir remote desktop, etc.
 
-Con esto ya podemos pasar a la sección de [[terraform]].
+Con esto ya podemos pasar a la sección de [terraform](terraform.md).
 
 Referencias de la referencia:
 - [Official Packer documentation](https://packer.io/docs/index.html)
