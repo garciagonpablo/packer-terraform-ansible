@@ -47,7 +47,7 @@ terraform destroy -target=vsphere_virtual_machine.01-PDC
 ### Nota:
 Dentro de los archivos `tf` hay una sección de `customize` en la cual se hace una [guest customization](https://docs.vmware.com/en/VMware-vSphere/6.5/com.vmware.vsphere.vm_admin.doc/GUID-F3E382AB-72F6-498A-BD26-7EC0BFE320A0.html).  Esto se hace para evitar problemas que puedan surgir cuando se crean VMs iguales, como lo podría ser nombres de computadoras duplicados. 
 
-Con esto completado se puede pasar al contenido de [[ansible]].
+Con esto completado se puede pasar al contenido de [ansible](ansible.md).
 
 Referencias de la referencia:
 - [Running Terraform in Automation](https://learn.hashicorp.com/terraform/development/running-terraform-in-automation)
